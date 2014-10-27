@@ -1,10 +1,10 @@
-package com.test.hibernate.junit;
+package com.test.dao.hibernate.junit;
 
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
-import com.test.hibernate.Hibernate4SesssionFactory;
+import com.test.dao.hibernate.Hibernate4SesssionFactory;
 
 public class StudentTest {
 
