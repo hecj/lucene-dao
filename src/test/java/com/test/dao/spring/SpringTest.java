@@ -11,7 +11,7 @@ public class SpringTest {
 	public static void main(String[] args) {
 
 		// 读取配置文件
-		ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContent.xml");
+		ApplicationContext ctx = new ClassPathXmlApplicationContext("daoBeans.xml");
 		// 查找bean
 
 		StudentDao studentDao = (StudentDao) ctx.getBean("studentDao");
