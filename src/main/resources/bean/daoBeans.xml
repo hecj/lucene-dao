@@ -42,7 +42,7 @@
     </bean>
     <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
 		<property name="locations">
-			<value>classpath:jdbc.properties</value>
+			<value>classpath:bean/jdbc.properties</value>
 		</property>
 	</bean>
 	<!--在下面配置hibernate映射	 -->
